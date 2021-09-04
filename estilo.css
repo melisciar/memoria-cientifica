@@ -3,4 +3,9 @@
     flex-wrap: wrap;
     height:300px;
     width:400px;
+    margin: 0 auto;
+}
+body{
+    background-color: #E9B8E6;
+    text-align: center;
 }
