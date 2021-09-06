@@ -71,7 +71,7 @@ var cartasGanadas = [];
 function crearTablero(){
     for(let i=0; i<cartasArr.length; i++){
         var carta = document.createElement('img');
-        carta.setAttribute('src', 'imagenes/dorso.png');
+        carta.setAttribute('src', 'imagenes/Dorso.png');
         carta.setAttribute('data-id', i);
         carta.addEventListener('click', voltear);
         grid.appendChild(carta);
@@ -91,8 +91,8 @@ function chequearIgualdad (){
         cartas[idOpcionDos].removeEventListener('click', voltear);
         cartasGanadas.push(cartasElegidas );
     }else{
-        cartas[idOpcionUno ].setAttribute('src', 'imagenes/dorso.png');
-        cartas[idOpcionDos ].setAttribute('src', 'imagenes/dorso.png');
+        cartas[idOpcionUno ].setAttribute('src', 'imagenes/Dorso.png');
+        cartas[idOpcionDos ].setAttribute('src', 'imagenes/Dorso.png');
     }
     cartasElegidas = [];
     cartasElegidasId = [];
